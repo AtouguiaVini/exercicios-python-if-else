@@ -1,7 +1,7 @@
 temp_maxima = 25
 
 try:
-    temp_atual = int(input('A temperatura atual é(°C): '))
+    temp_atual = float(input('A temperatura atual é(°C): '))
     
     if temp_atual > temp_maxima:
         print('Alerta! Nivel da temperatura excedeu o limite aceitável!')
